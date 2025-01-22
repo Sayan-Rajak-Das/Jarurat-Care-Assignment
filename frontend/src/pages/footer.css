@@ -1,0 +1,46 @@
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: left; /* Align the text to the left */
+    padding: 6px 0; /* Reduced padding to decrease the height */
+    width: 100%;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  /* Fixed footer for homepage and login page */
+  .fixed-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Sticky footer for other pages */
+  .sticky-footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto; /* Ensures footer sticks when content is small */
+  }
+  
+  /* Ensure page content fills the screen */
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
+  
