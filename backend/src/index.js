@@ -15,7 +15,7 @@ const app = express();
 // Middlewares
 app.use(cors({
     credentials : true,
-    origin : "https://jarurat-care-assignment-a137.vercel.app"
+    origin : "https://jarurat-care-assignment-6i3p.vercel.app"
 }))
 app.use(express.json());
 app.use(cookieParser()); 
